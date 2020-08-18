@@ -1,0 +1,30 @@
+> Client x Server
+
+Há tecnologia para Cliente e para Servidor
+
+O JavaScript surgiu como uma tecnologia para clientes.
+
+Tecnologias relacionadas: Website
+HTML » Conteúdo
+CSS » Designer/Estilo
+JS » Programador/Interação
+
+
+- Basic Timeline -
+» 1970 » DARPA » Arpanet » Internet
+» 1993 » HTML » Protocolo http » Juntou-se ao TCPIP » World Wide Web (www) » CERN » Mosaic
+» 1994 » Netscape
+» 1995 » Moca » Java » JavaScript (Moca) » Microsoft » Internt Explores
+» 1997 » ECMA » Padronização do Linguagem (ISO Europeia)
+» 2002 » Netscape Vs Microsoft » Mozilla » Firefox
+» 2008 » Google Chrome
+» 2009 » V8 Google Chrome (Open Source)
+» 2010 » node.js (roda JavaScript sem navegador)
+
+ECAMScripit » Versão Padronizada do JavaScript » 1997 v1.0 » 1998 v2.0
+» 1999 v3.0 | Compatibilidade com Expressões Regulares, Bloco Try Cath p/tratativa de erros)
+» 2009 v.ES5 | Mais Popular de todas, compatível com quase todos os navegadores e com JSON.
+» 2015 v.ES6 | Declardores left e cont e as strings e templates
+» 2016 v.ES2016 | Operador de Exponencialização
+» 2017 v.ES2017 | Compatibilidade com Funções Assíncronas
+» 2018 v.ES2018 | Novidades em expressões regulares e as Promessas/Promise
