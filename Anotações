@@ -36,3 +36,43 @@ https://developer.mozilla.org/pt-BR/
 https://www.ecma-international.org/ » Standard ECMA-262
 
 Aprende lógica de programação, programando em JavaScript
+
+Há 03 formas de delimitar uma strings dentro do JS
+"" / '' / ``
+
+Regras de Identificadores
+
+1ª Podem começar com lentra, $ ou _
+2ª Não podem começar com números
+3ª É possível usar letras ou números
+4ª É possívelusar acentos e simbolos
+5ª Não podem conter espaços
+6ª Não podem ser palavras reservadas
+
+Dicas para nome de Identificadores
+
+1ª Maiúsculas e minúsculas fazem diferença
+2ª Tente escolher nomes coerentes para as variáveis
+3ª Evite se tornar um 'programador alfabeto' ou um 'programador contador'
+
+Data Types » typeof
+» number (Infinity | NaN)
+» string
+» boolean
+» null
+» undefined
+» object (Array)
+» function
+
+var ~ let ~ const
+
+( + ) tem o significado de concatenação.
+
+Comentários
+CSS » /* */
+HTML » <!-- -->
+JS » //
+
+alert('') » Janela de Alerta (window.)   
+confirm('') » Janela de Confirmação
+prompt('') » Janela de Interação/Input
