@@ -64,9 +64,10 @@ Data Types » typeof
 » object (Array)
 » function
 
-var ~ let ~ const
+Abrindo novo terminal Ctr + Shift + Crase
+Ctrl + L
 
-( + ) tem o significado de concatenação.
+var ~ let ~ const
 
 Comentários
 CSS » /* */
@@ -76,3 +77,41 @@ JS » //
 alert('') » Janela de Alerta (window.)   
 confirm('') » Janela de Confirmação
 prompt('') » Janela de Interação/Input
+
+Operador Soma
+( + ) tem o significado de concatenação e de soma
+(string + string) para concatenação
+(number + number) para adição
+
+prompt sempre receberá uma string, é necessário realizar uma conversão.
+
+String » Número
+- Number.parseInt(n)
+- Number.parse Float(n)
+- Number (n) | O JS definirá.
+
+Número » String
+- String(n)
+- n.toString()
+
+//Formantando strings
+var s = 'JavaScript'
+'Eu estou aprendendo s' //não faz interpolação
+'Eu estou aprendendo' + s //usa concatenação
+`Eu estou aprendendo ${s}` //usa template string
+
+Atributos
+s.length //quantos caracteres a string tem
+s.toUpperCase() // tudo para 'MAIÚSCULAS'
+S.tolLowerCase() // tudu para 'minúsculas'
+
+Comando
+document.write() //escreve na tela
+document.writeln() //escreve na tela e quebra linha
+<br/> //quebra linha
+
+//Formatando Números
+var n1 = 1543.5
+n1.toFixed(2) //02 casas decimais
+n1.toFixed(2).replace('.', ',')
+n1.toLocaleString('pt-BR'), {style: 'currency', currency: 'BRL'}) //string localizada NO MUNDO EM OBJETO
