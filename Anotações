@@ -90,7 +90,7 @@ String » Número
 - Number.parse Float(n)
 - Number (n) | O JS definirá.
 
-Número » String
+Número » String»
 - String(n)
 - n.toString()
 
@@ -115,3 +115,28 @@ var n1 = 1543.5
 n1.toFixed(2) //02 casas decimais
 n1.toFixed(2).replace('.', ',')
 n1.toLocaleString('pt-BR'), {style: 'currency', currency: 'BRL'}) //string localizada NO MUNDO EM OBJETO
+
+//Operadores
+» aritméticos ( + | - | * | / | % | ** ) » Operadores Binários
+» atribuição
+Ordem de Procedência
+- var a = 5 + 3 = 8
+- var b = a % 5 = 3
+- var c = 5 * b ** 2 = 45
+- var d = 10 - a / 2 = 6
+- var e = 6 * 2 / d = 2
+- var f = b % e + 4 / e = 3
+Simplificando
+- n = n + 4 | n += 4 | n++ ou ++n (pré e pós incremento)
+» Relacionais ( > | < | >= | <= | == | != )
+- Identidade ( === )
+» Lógicos
+- ! = negação | Operador Unário ( true or false )
+- && = conjução | Operador Binário (só satisfaz se as 02 forem verdadeiras)
+- || = disjunção | Operador Binário (basta que apenas um seja verdadeiro)
+Ordem de Precedências
+1ª Operadores Aritméricos
+2ª Operadores Relacionais
+3ª Operadores Lógicos 
+» Ternário ( ? | : )
+» typeof (tipo de operador)
